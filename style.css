@@ -1,0 +1,98 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    background: url(img/hero-bg.jpg) no-repeat center center/ cover scroll;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo{ 
+    margin-left: 20px;
+}
+/**navbar css**/
+.navbar{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+}
+
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 50%;
+    
+  
+
+}
+.navbar li {
+    list-style: none;
+    overflow: hidden;
+
+
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 50px;
+
+    border-radius: 40px;
+    
+
+}
+.navbar ul li a:hover {
+   background: #131313;
+    color:#fdeaa8;
+    
+}
+/**banner css**/
+#banner{
+    margin: 20px;
+
+}
+
+
+.img{
+    margin-left: 750px;
+
+}
+.banner-text h3{
+    font-size: 15px;
+    font-weight:400;
+    color:white;
+    margin-top: 140px;
+    margin-left: 70px;
+}
+.banner-text h1{
+    font-size: 60px;
+    font-weight: 700;
+    color:#fdeaa8;
+    margin-top: 40px; 
+    margin-left: 70px;
+}
+.banner-text h4{
+    font-size: 15px;
+    font-weight:300;
+    color:white;
+    margin-top: 10px;
+    margin-left: 70px;
+
+}
+.btn{
+    width: 195px;
+   padding: 8px 20px;
+   text-decoration: none;
+    background-color: #fdeaa8;;
+    border-radius: 50px;
+    color:#0b0c0c;
+    font-family: "Montserrat";
+    font-weight: 600;
+    cursor: pointer;
+   margin-left: 800px;
+   
+
+}
+
